@@ -1,0 +1,495 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Ups",
+    "trigger": "Exception",
+    "filename": "report.json",
+    "dumpEventTime": "2022-10-18T14:37:42Z",
+    "dumpEventTimeStamp": "1666078662636",
+    "processId": 10429,
+    "threadId": 0,
+    "cwd": "/opt/lampp/htdocs/CodeBootCamp/NodejsDasar",
+    "commandLine": [
+      "node",
+      "report.mjs"
+    ],
+    "nodejsVersion": "v14.18.0",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "14.18.0",
+      "v8": "8.4.371.23-node.84",
+      "uv": "1.42.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.9",
+      "ares": "1.17.2",
+      "modules": "83",
+      "nghttp2": "1.42.0",
+      "napi": "8",
+      "llhttp": "2.1.3",
+      "openssl": "1.1.1l",
+      "cldr": "39.0",
+      "icu": "69.1",
+      "tz": "2021a",
+      "unicode": "13.0"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Fermium",
+      "headersUrl": "https://nodejs.org/download/release/v14.18.0/node-v14.18.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v14.18.0/node-v14.18.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.15.0-176-generic",
+    "osVersion": "#185-Ubuntu SMP Tue Mar 29 17:40:04 UTC 2022",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD A9-9420 RADEON R5, 5 COMPUTE CORES 2C+3G",
+        "speed": 2004,
+        "user": 670620,
+        "nice": 260,
+        "sys": 230340,
+        "idle": 2926330,
+        "irq": 0
+      },
+      {
+        "model": "AMD A9-9420 RADEON R5, 5 COMPUTE CORES 2C+3G",
+        "speed": 2026,
+        "user": 672520,
+        "nice": 160,
+        "sys": 221620,
+        "idle": 2922140,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "60:14:b3:aa:cf:0f",
+        "address": "192.168.144.175",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "60:14:b3:aa:cf:0f",
+        "address": "fe80::5afd:b939:25a8:24e3",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "tap0",
+        "internal": false,
+        "mac": "8a:90:cc:38:ed:e8",
+        "address": "fe80::8890:ccff:fe38:ede8",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      }
+    ],
+    "host": "localhost.localdomain"
+  },
+  "javascriptStack": {
+    "message": "Error: Ups",
+    "stack": [
+      "at sampleError (file:///opt/lampp/htdocs/CodeBootCamp/NodejsDasar/report.mjs:9:11)",
+      "at file:///opt/lampp/htdocs/CodeBootCamp/NodejsDasar/report.mjs:12:1",
+      "at ModuleJob.run (internal/modules/esm/module_job.js:183:25)",
+      "at async Loader.import (internal/modules/esm/loader.js:178:24)"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 6053888,
+    "totalCommittedMemory": 4917576,
+    "usedMemory": 3107440,
+    "availableMemory": 1825495424,
+    "memoryLimit": 1829240832,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 151552,
+        "committedMemory": 150680,
+        "capacity": 150392,
+        "used": 150392,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2060616,
+        "capacity": 1047424,
+        "used": 275240,
+        "available": 772184
+      },
+      "old_space": {
+        "memorySize": 2781184,
+        "committedMemory": 2167432,
+        "capacity": 2653136,
+        "used": 2164264,
+        "available": 488872
+      },
+      "code_space": {
+        "memorySize": 360448,
+        "committedMemory": 105024,
+        "capacity": 88640,
+        "used": 88640,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 298656,
+        "capacity": 297792,
+        "used": 297792,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 135168,
+        "committedMemory": 135168,
+        "capacity": 131112,
+        "used": 131112,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047424,
+        "used": 0,
+        "available": 1047424
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000abcae4",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::Object>) [node]"
+    },
+    {
+      "pc": "0x0000000000abf2a4",
+      "symbol": "report::WriteReport(v8::FunctionCallbackInfo<v8::Value> const&) [node]"
+    },
+    {
+      "pc": "0x0000000000c238db",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000c24e86",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000c25506",
+      "symbol": "v8::internal::Builtin_HandleApiCall(int, unsigned long*, v8::internal::Isolate*) [node]"
+    },
+    {
+      "pc": "0x0000000001446459",
+      "symbol": " [node]"
+    }
+  ],
+  "resourceUsage": {
+    "userCpuSeconds": 0.071405,
+    "kernelCpuSeconds": 0.025965,
+    "cpuConsumptionPercent": 9.737,
+    "maxRss": 34177024,
+    "pageFaults": {
+      "IORequired": 20,
+      "IONotRequired": 2239
+    },
+    "fsActivity": {
+      "reads": 2568,
+      "writes": 0
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 0.068666,
+    "kernelCpuSeconds": 0.026158,
+    "cpuConsumptionPercent": 9.4824,
+    "fsActivity": {
+      "reads": 2568,
+      "writes": 0
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000005d5e920"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000000044ee640"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x0000000005df9548",
+      "repeat": 0,
+      "firesInMsFromNow": -4607177,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000005df95e0"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000005df9658"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000005df96d0"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000005df9748"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000005df97c0"
+    },
+    {
+      "type": "timer",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000005e5d008",
+      "repeat": 0,
+      "firesInMsFromNow": 8099,
+      "expired": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000005d7a040",
+      "width": 88,
+      "height": 4,
+      "fd": 17,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000005e20db8",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000005e98770",
+      "width": 88,
+      "height": 4,
+      "fd": 19,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000005e98950",
+      "width": 88,
+      "height": 4,
+      "fd": 20,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000005e47e68",
+      "signum": 12,
+      "signal": "SIGUSR2"
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00000000044f5880",
+      "loopIdleTimeSeconds": 2.6609e-05
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "CONDA_SHLVL": "0",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "CONDA_EXE": "/home/wisnu/miniconda3/bin/conda",
+    "LC_MEASUREMENT": "id_ID.UTF-8",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "LC_PAPER": "id_ID.UTF-8",
+    "LC_MONETARY": "id_ID.UTF-8",
+    "ANDROID_HOME": "/home/wisnu/android-sdk",
+    "LANG": "en_US.UTF-8",
+    "GDM_LANG": "en_US",
+    "DISPLAY": ":0",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "MATE",
+    "COMPIZ_CONFIG_PROFILE": "mate",
+    "GTK_OVERLAY_SCROLLING": "0",
+    "COLORTERM": "truecolor",
+    "ANDROID_SDK_ROOT": "/home/wisnu/Android",
+    "JAVA_HOME": "/usr/lib/jvm/java-8-openjdk-amd64/",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "XDG_VTNR": "7",
+    "GIO_LAUNCHED_DESKTOP_FILE_PID": "3398",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "MANDATORY_PATH": "/usr/share/gconf/mate.mandatory.path",
+    "_CE_M": "",
+    "LC_NAME": "id_ID.UTF-8",
+    "XDG_SESSION_ID": "c2",
+    "XDG_GREETER_DATA_DIR": "/var/lib/lightdm-data/wisnu",
+    "USER": "wisnu",
+    "DESKTOP_SESSION": "mate",
+    "DEFAULTS_PATH": "/usr/share/gconf/mate.default.path",
+    "QT_QPA_PLATFORMTHEME": "gtk2",
+    "PWD": "/opt/lampp/htdocs/CodeBootCamp/NodejsDasar",
+    "HOME": "/home/wisnu",
+    "CONDA_PYTHON_EXE": "/home/wisnu/miniconda3/bin/python",
+    "VSCODE_GIT_ASKPASS_NODE": "/usr/share/code/code",
+    "SSH_AGENT_PID": "1858",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.66.2",
+    "QT_ACCESSIBILITY": "1",
+    "XDG_SESSION_TYPE": "x11",
+    "XDG_DATA_DIRS": "/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "MATE_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "_CE_CONDA": "",
+    "XDG_SESSION_DESKTOP": "mate",
+    "QT_SCALE_FACTOR": "1",
+    "LC_ADDRESS": "id_ID.UTF-8",
+    "LC_NUMERIC": "id_ID.UTF-8",
+    "GTK_MODULES": "appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module",
+    "UBUNTU_MENUPROXY": "1",
+    "VSCODE_GIT_ASKPASS_MAIN": "/usr/share/code/resources/app/extensions/git/dist/askpass-main.js",
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash",
+    "XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
+    "XDG_CURRENT_DESKTOP": "MATE",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "GIO_LAUNCHED_DESKTOP_FILE": "/usr/share/applications/code.desktop",
+    "SHLVL": "1",
+    "XDG_SEAT": "seat0",
+    "LANGUAGE": "en_US",
+    "VSCODE_GIT_IPC_HANDLE": "/run/user/1000/vscode-git-f7d4c02196.sock",
+    "LC_TELEPHONE": "id_ID.UTF-8",
+    "GDK_BACKEND": "x11",
+    "GDMSESSION": "mate",
+    "LOGNAME": "wisnu",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "GIT_ASKPASS": "/usr/share/code/resources/app/extensions/git/dist/askpass.sh",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "XAUTHORITY": "/home/wisnu/.Xauthority",
+    "XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session0",
+    "QT_AUTO_SCREEN_SCALE_FACTOR": "0",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-mate:/etc/xdg",
+    "PATH": "/home/wisnu/miniconda3/condabin:/home/wisnu/android-sdk/platform-tools:/home/wisnu/android-sdk/cmdline-tools/tools:/home/wisnu/android-sdk/cmdline-tools/tools/bin:/home/wisnu/.composer/vendor/bin:/home/wisnu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/wisnu/Android/platform-tools/:/home/wisnu/Android/cmdline-tools/latest/bin/:/home/wisnu/Android/emulator/:/usr/lib/jvm/java-8-openjdk-amd64//bin/",
+    "LC_IDENTIFICATION": "id_ID.UTF-8",
+    "SESSION_MANAGER": "local/localhost:@/tmp/.ICE-unix/1762,unix/localhost:/tmp/.ICE-unix/1762",
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "LC_TIME": "id_ID.UTF-8",
+    "_": "/usr/local/bin/node"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 67108864,
+      "hard": 67108864
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 12748,
+      "hard": 12748
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
